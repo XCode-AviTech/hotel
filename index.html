@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourly - Travel Agency</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+      <div class="header-top">
+        <div class="container">
+          <a href="tel:+256741726789" class="helpline-box">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div class="wrapper">
+              <p class="helpline-title">For Further Inquires :</p>
+              <p class="helpline-number">+256 (0) 741726789</p>
+            </div>
+          </a>
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="#">
+          </a>
+
+          <div class="header-btn-group">
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search"></ion-icon>
+            </button>
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="container">
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link" title="Facebook">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link" title="X">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link" title="YouTube">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+              <a href="#" class="logo">
+                <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+              </a>
+
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="navbar-list">
+              <li>
+                <a href="#hotels" class="navbar-link" data-nav-link>hotels</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>about us</a>
+              </li>
+
+              <li>
+                <a href="#package" class="navbar-link" data-nav-link>Popular Places</a>
+              </li>
+
+              <li>
+                <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+              </li>
+
+            </ul>
+          </nav>
+
+          <a href="#book" class="btn btn-primary">Book Now</a>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+
+        <!-----------Hero Section---------->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <h2 class="h1 hero-title">Find Your Perfect Stay in Uganda</h2>
+            <p class="hero-text">
+              Discover top-rated hotels across Uganda at your fingertips. Seamlessly book your next getaway with ease, whether you're planning a business trip, romantic escape, or family vacation.
+            </p>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#book" class="btn btn-secondary">Book now</a>
+            </div>
+          </div>
+        </section>
+
+        <!-----------Book Section---------->
+
+        <section class="tour-search" id="book">
+          <div class="container">
+            <form action="" class="tour-search-form">
+
+              <div class="input-wrapper">
+                <label for="destination" class="input-label">Search Hotel*</label>
+                <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                  class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="people" class="input-label">Pax Number*</label>
+                <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="checkin" class="input-label">Checkin Date**</label>
+                <input type="date" name="checkin" id="checkin" required class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="checkout" class="input-label">Checkout Date*</label>
+                <input type="date" name="checkout" id="checkout" required class="input-field">
+              </div>
+
+              <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+            </form>
+          </div>
+        </section>
+
+        <!-----------Hotel Section---------->
+
+        <section class="popular" id="hotels">
+          <div class="container">
+            <p class="section-subtitle">Popular 5✨ Hotels Around</p>
+            <h2 class="h2 section-title">Stay at Uganda's Favorites</h2>
+            <p class="section-text">
+              Explore a curated selection of the most sought-after hotels across Uganda, known for their exceptional service, comfort, and prime locations.
+            </p>
+
+            <ul class="popular-list">
+              
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img src="./assets/images/s1.jpg" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/speke.html">Speke Apartments Wampewo</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Located in Kampala, just 200 metres from Centenary Park
+                    </p>
+
+                    <a href="Hotel/speke.html" class="btn btn-primary">Book Now</a>
+                  
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="./assets/images/se.png" alt="##" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/index.html">Kampala Serena Hotel</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Located: Kintu Rd, Kampala
+                    </p>
+
+                    <a href="Hotel/index.html" class="btn btn-primary">Book Now</a>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="./assets/images/munyo.png" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/munyonyo.html">Munyonyo Commonwealth Resort</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Located: 1047, 1049 Wavamunno Rd, Kampala
+                    </p>
+
+                    <a href="Hotel/munyonyo.html" class="btn btn-primary">Book Now</a>
+                  
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="popular-list">
+
+              <li>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="./assets/images/l1.png" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/latitude.html">Latitude 0 Degrees</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Located: 64 & 66 Kyodondo, Mobutu Road, Kampala
+                    </p>
+
+                    <a href="Hotel/latitude.html" class="btn btn-primary">Book Now</a>
+                  </div>
+
+                </div>
+              </li>
+            
+              <li>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="./assets/images/kar.png" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/Karibu Entebbe.html">Karibu Entebbe</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Double Room with Private Bathroom
+                    </p>
+
+                    <a href="Hotel/Karibu Entebbe.html" class="btn btn-primary">Book Now</a>
+                  
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="./assets/images/fo.png" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="Hotel/Fontis.html">Uganda</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="Hotel/Fontis.html">Fontis Residences Hotel Ltd</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Located: 40 Kyaddondo Rd, Kampala
+                    </p>
+
+                    <a href="Hotel/Fontis.html" class="btn btn-primary">Book Now</a>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-----------About Section---------->
+
+        <section class="cta about" id="about">
+          <div class="container">
+            <div class="cta-content">
+              <p class="section-subtitle">ABOUT US</p>
+              <h2 class="h2 section-title">Who We Are</h2>
+              <p class="section-text">
+                We are a trusted platform dedicated to simplifying the hotel booking process in Uganda. By connecting travelers with popular hotels, we aim to deliver exceptional booking experiences tailored to every traveler’s unique needs. Whether you’re exploring Uganda’s vibrant cities or serene countryside, we ensure a seamless and hassle-free booking journey.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-----------Package Section---------->
+
+        <section class="package" id="package">
+          <div class="container">
+            <p class="section-subtitle">Popular Places</p>
+            <h2 class="h2 section-title">Discover Uganda's Must-See Spots</h2>
+            <p class="section-text">
+              From bustling cityscapes to serene natural retreats, uncover the top attractions that make Uganda a unique and unforgettable destination.
+            </p>
+
+            <ul class="package-list">
+
+              <li>
+                <div class="package-card">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/Uganda-Banner-Image-1920x630.jpg" alt="#" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Bwindi Impenetrable Forest: Gorilla Trekking & Rainforest Wildlife</h3>
+                    <p class="card-text">
+                      Bwindi is a top spot for gorilla trekking in Uganda. Guided by experts, you’ll explore the magical forest, spend an hour with a gorilla family, and return to your cozy jungle lodge.
+                    </p>
+                    <ul class="card-meta-list">
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">8AM to 8PM</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">South-Western Uganda</p>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(12K reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      20,000 UGX
+                      <span>/ per person</span>
+                    </p>
+
+                    <a href="#book" class="btn btn-secondary">Book Now</a>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/Murchison-Falls-National-Park_Elephant_Banner-Image.jpg" alt="" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3 card-title">Murchison Falls National Park: Game Viewing, River Cruises & Birding</h3>
+                    <p class="card-text">
+                      Murchison Falls National Park, split by the Nile, offers iconic wildlife, nearly 500 bird species, and a boat cruise to the stunning falls where the Nile squeezes through a 7-meter gap.
+                    </p>
+
+                    <ul class="card-meta-list">
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">8AM to 8PM</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">305km North of Kampala</p>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+
+                    <div class="wrapper">
+                      <p class="reviews">(800 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      20,000 UGX
+                      <span>/ per person</span>
+                    </p>
+
+                    <a href="#book" class="btn btn-secondary">Book Now</a>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+
+                  <figure class="card-banner">
+                    <img src="./assets/images/Queen-Elizabeth-National-Park_Banner-Image.jpg" alt="" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <h3 class="h3 card-title">Queen Elizabeth National Park: Birding, Game Viewing, Chimps & River Cruises</h3>
+                    <p class="card-text">
+                      Queen Elizabeth National Park, Uganda’s top savannah reserve, is home to elephants, buffalo, leopards, and tree-climbing lions. Enjoy a boat cruise on the Kazinga Channel and spot some of the 600 bird species.
+                    </p>
+
+                    <ul class="card-meta-list">
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">8AM to 8PM</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">410km West of Kampala</p>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+
+                    <div class="wrapper">
+                      <p class="reviews">(440 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      20,000 UGX
+                      <span>/ per person</span>
+                    </p>
+
+                    <a href="#book" class="btn btn-secondary">Book Now</a>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">View All Places</button>
+
+          </div>
+        </section>
+
+        <!-----------Gallery Section---------->
+
+        <section class="gallery" id="gallery">
+          <div class="container">
+
+            <p class="section-subtitle">Photo Gallery</p>
+            <h2 class="h2 section-title">Experience Through Our Lens</h2>
+            <p class="section-text">
+              Browse stunning visuals of our featured hotels, their amenities, and the unforgettable experiences they offer.
+            </p>
+
+            <ul class="gallery-list">
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img src="./assets/images/7.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img src="./assets/images/1.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img src="./assets/images/10.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img src="./assets/images/9.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img src="./assets/images/11.jpg" alt="Gallery image">
+                </figure>
+              </li>
+
+            </ul>
+          </div>
+        </section>
+
+        <!-----------Contact Section---------->
+
+        <section class="cta" id="contact">
+          <div class="container">
+
+            <div class="cta-content">
+              <h2 class="h2 section-title">Get in Touch with Us</h2>
+              <p class="section-text">
+                Have questions or need assistance with your booking? We’re here to help! Reach out to our friendly support team, and we’ll ensure your travel plans go smoothly.
+              </p>
+            </div>
+
+            <button class="btn btn-secondary">Contact Us !</button>
+
+          </div>
+        </section>
+      </article>
+    </main>
+    
+    <!--------Footer---------->
+
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+
+          <div class="footer-brand">
+            <a href="#" class="logo" title="Logo">
+              <img src="./assets/images/logo.svg" alt="">
+            </a>
+            <p class="footer-text">
+              We are a trusted platform dedicated to simplifying the hotel booking process in Uganda. 
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+            <p class="contact-text">
+              Feel free to contact and reach us !!
+            </p>
+            <ul>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="tel:+256741726789" class="contact-link">+256 (0) 741726789</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:info@tourly.com" class="contact-link">info@tourly.com</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>Mengo - Kampala, Uganda</address>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-form">
+
+            <p class="form-text">
+              Subscribe our newsletter for more update & news !!
+            </p>
+
+            <form action="" class="form-wrapper">
+              <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; 2025 <a href="">TourlyHotels</a>. All rights reserved
+          </p>
+
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#top" class="go-top" data-go-top title="Back to Top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
